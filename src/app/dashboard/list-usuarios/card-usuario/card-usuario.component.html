@@ -1,0 +1,12 @@
+<div class="card" style="width: 18rem;">
+  <img [src]="user.image" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title text-center">{{user.name}} </h5>
+    <p class="card-text text-center">{{user.created}}</p>
+    <div class="d-grid gap-2">
+      <button routerLink="usuario/{{user.id}}" class="btn btn-primary btn-xl">VER</button>
+
+    </div>
+
+  </div>
+</div>
